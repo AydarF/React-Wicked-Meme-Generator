@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #333;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    color: white;
+    background-color: #333;
+  }
+  
+  header > img {
+    height: 60%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+  
+  header > p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+  
+  }
+  
+  .meme {
+    position: relative;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .meme > img {
+    width: 100%;
+  }
+  
+  .meme > h2 {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+          2px 2px 0 #000,
+          -2px -2px 0 #000,
+          2px -2px 0 #000,
+          -2px 2px 0 #000,
+          0 2px 0 #000,
+          2px 0 0 #000,
+          0 -2px 0 #000,
+          -2px 0 0 #000,
+          2px 2px 5px #000;
+  }
+  
+  .meme > .top {
+    top: 0;
+  }
+  
+  .meme > .bottom {
+    bottom: 0;
+  }
+  
+  .meme-form {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .meme-form > input {
+    width: 45%;
+    height: 40px;
+    border: none;
+    border-right: 1.5px solid #333;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  
+  .meme-form > button {
+    border: 1.5px solid white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: white;
+    background-color: #3a3a3a;
+  }
+  
+  .meme-form > input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 18px;
+  }
+  .meme-form > input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 18px;
+  }
+  .meme-form > input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 18px;
+  }
+  .meme-form > input:-moz-placeholder { /* Firefox 18- */
+    font-size: 18px;
+  }
